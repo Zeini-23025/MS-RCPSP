@@ -4,9 +4,9 @@ import pandas as pd
 from compare_results import compare_results
 from parser_dzn import DznParser
 
-INSTANCES_DIR = "./instances"
-RESULTS_FILE = "./resultats/comparison_results.csv"
-OUTPUT_DIR = "./modeles/data"
+INSTANCES_DIR = "./projet_ordonnancement/instances"
+RESULTS_FILE = "./projet_ordonnancement/resultats/comparison_results.csv"
+OUTPUT_DIR = "./projet_ordonnancement/modeles/data"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -46,7 +46,7 @@ def extract_features(instance_path):
 
 if __name__ == "__main__":
     print("Préparation des données d'entraînement...")
-    comparison_result = compare_results("./resultats")
+    comparison_result = compare_results("./projet_ordonnancement/resultats")
     df_res = comparison_result['dataframe']
     df_res.to_csv(RESULTS_FILE, index=False)
 

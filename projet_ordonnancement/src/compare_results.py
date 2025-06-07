@@ -211,7 +211,7 @@ Nombre total d'instances analysées: {total_instances}
 
 if __name__ == "__main__":
     # Comparer les résultats
-    results_dir = "./resultats"
+    results_dir = "./projet_ordonnancement/resultats"
     
     print("Comparaison des résultats...")
     comparison_results = compare_results(results_dir)

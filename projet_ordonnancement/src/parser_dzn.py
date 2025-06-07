@@ -180,7 +180,7 @@ def parse_all_instances(instances_dir):
 
 if __name__ == "__main__":
     # Test du parser sur un exemple
-    parser = DznParser("/home/ubuntu/projet_ordonnancement/instances/exemple.dzn")
+    parser = DznParser("projet_ordonnancement/instances/inst_set1a_sf0_nc1.5_n20_m10_00.dzn")
     data = parser.get_data()
     
     print(f"Nombre d'activités: {data['nActs']}")

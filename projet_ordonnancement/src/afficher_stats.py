@@ -76,7 +76,7 @@ def afficher_statistiques_methodes(results_dir):
 
 if __name__ == "__main__":
     # Répertoire des résultats
-    results_dir = "./resultats"
+    results_dir = "./projet_ordonnancement/resultats"
     
     # Afficher les statistiques
     afficher_statistiques_methodes(results_dir)
