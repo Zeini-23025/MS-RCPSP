@@ -1,7 +1,7 @@
 import json
 import pandas as pd
 
-file_path = '/home/ubuntu/projet_ordonnancement/projet_ordonnancement/modeles/data/classification_data.json'
+file_path = 'projet_ordonnancement/modeles/data/classification_data.json'
 
 try:
     with open(file_path, 'r') as f:

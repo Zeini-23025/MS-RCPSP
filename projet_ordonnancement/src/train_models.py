@@ -80,8 +80,8 @@ if __name__ == "__main__":
     parser.add_argument('--model', choices=['xgboost', 'randomforest', 'decisiontree'], required=True)
     args = parser.parse_args()
 
-    data_dir = "./modeles/data"
-    models_dir = "./modeles"
+    data_dir = "./projet_ordonnancement/modeles/data"
+    models_dir = "./projet_ordonnancement/modeles"
     os.makedirs(models_dir, exist_ok=True)
 
     train_classification_models(data_dir, models_dir, algo=args.model)

@@ -312,7 +312,7 @@ def apply_algorithms_to_all_instances(instances_dir, results_dir):
 
 if __name__ == "__main__":
     # Appliquer les algorithmes à toutes les instances
-    instances_dir = "./instances"
-    results_dir = "./resultats"
+    instances_dir = "./projet_ordonnancement/instances"
+    results_dir = "./projet_ordonnancement/resultats"
     
     apply_algorithms_to_all_instances(instances_dir, results_dir)

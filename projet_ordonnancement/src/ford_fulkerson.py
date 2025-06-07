@@ -131,6 +131,6 @@ def process_all_results(instances_dir, results_dir):
             print(f"✅ Meilleur algorithme: {best_algo} avec un flot maximal de {ff_results[best_algo]['max_flow']}")
 
 if __name__ == "__main__":
-    instances_dir = "./instances"
-    results_dir = "./resultats"
+    instances_dir = "./projet_ordonnancement/instances"
+    results_dir = "./projet_ordonnancement/resultats"
     process_all_results(instances_dir, results_dir)
