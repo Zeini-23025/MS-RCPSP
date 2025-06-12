@@ -75,8 +75,5 @@ Les résultats de la comparaison seront enregistrés dans le fichier `resultats/
 
 ## Personnalisation
 
-Vous pouvez personnaliser les paramètres des algorithmes et des modèles de machine learning en modifiant les scripts correspondants dans le dossier `src/`.
+Vous pouvez personnaliser les paramètres des algorithmes  en modifiant les scripts correspondants dans le dossier `src/`.
 
-## Auteur
-
-Ce système a été développé par Manus pour répondre à vos besoins spécifiques en matière d'ordonnancement et d'optimisation.
